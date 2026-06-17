@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>KilatMart — Groceries & Essentials Delivered in Minutes</title>
+  <meta name="description" content="KilatMart is Malaysia's quick-commerce platform. Order groceries, pharmacy, and daily essentials from partner stores — delivered to your door in under 30 minutes.">
+  <meta name="theme-color" content="#0D2B1E">
+  <meta property="og:title" content="KilatMart — Delivered in Minutes">
+  <meta property="og:description" content="Malaysia's fastest grocery & essentials delivery. Download the app and order now.">
+  <meta property="og:image" content="https://www.kilatmart.com/assets/images/og-image.png">
+  <meta property="og:url" content="https://www.kilatmart.com">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/logo-symbol.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="site-header" id="top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#top">
+          <img src="assets/images/logo-horizontal.png" alt="KilatMart" height="36" class="brand-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" data-i18n-aria="nav_toggle_menu" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="#coming-soon" data-i18n="nav_launch">Launch</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav_about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#why" data-i18n="nav_why">Why Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#how" data-i18n="nav_how">How It Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="#customer-app" data-i18n="nav_customer">Customer App</a></li>
+            <li class="nav-item"><a class="nav-link" href="#rider-app" data-i18n="nav_rider">Delivery partners</a></li>
+            <li class="nav-item"><a class="nav-link" href="#partners" data-i18n="nav_partners">Partners</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav_contact">Contact</a></li>
+            <li class="nav-item lang-switcher ms-lg-1">
+              <div class="lang-toggle" role="group" aria-label="Language">
+                <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+                <button type="button" class="lang-btn" data-lang="ms" aria-pressed="false">BM</button>
+              </div>
+            </li>
+            <li class="nav-item ms-lg-2 nav-cta-item">
+              <a class="btn btn-brand btn-sm nav-cta-btn" href="#coming-soon" data-i18n="nav_notify">Get Notified</a>
+            </li>
+            <li class="nav-item d-lg-none mobile-menu-cta">
+              <a class="btn btn-brand w-100" href="#coming-soon" data-i18n="hero_cta_notify">Get Notified at Launch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section-pad" id="hero">
+      <div class="container">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-6 order-2 order-lg-1 reveal hero-copy-col">
+            <div class="hero-badge">
+              <span class="pulse-dot"></span>
+              <span data-i18n="hero_badge">Launching Soon · Kuala Lumpur</span>
+            </div>
+            <h1 class="hero-title" data-i18n-html="hero_title_html">
+              Groceries &amp; essentials,<br>
+              <span class="text-gradient">delivered in minutes.</span>
+            </h1>
+            <p class="hero-lead" data-i18n-html="hero_lead_html">
+              KilatMart connects you to trusted neighbourhood stores — groceries, pharmacy, and daily needs at your doorstep in under <strong>30 minutes</strong>. <em>Kilat</em> means lightning-fast in Malay.
+            </p>
+            <div class="hero-cta d-flex flex-wrap gap-3 hero-cta-row">
+              <a href="#coming-soon" class="btn btn-brand btn-lg hero-cta-primary">
+                <i class="bi bi-bell me-2"></i><span data-i18n="hero_cta_notify">Get Notified at Launch</span>
+              </a>
+              <a href="#how" class="btn btn-outline-light btn-lg" data-i18n="hero_cta_how">See How It Works</a>
+            </div>
+            <div class="hero-stats row g-2 g-md-3 mt-4 mt-lg-5 hero-stats-row">
+              <div class="col-4">
+                <div class="stat-item stat-item-glass">
+                  <span class="stat-value">&lt;30</span>
+                  <span class="stat-label" data-i18n="hero_stat_delivery">Min delivery</span>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="stat-item stat-item-glass">
+                  <span class="stat-value">1000+</span>
+                  <span class="stat-label" data-i18n="hero_stat_products">Products</span>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="stat-item stat-item-glass">
+                  <span class="stat-value">24/7</span>
+                  <span class="stat-label" data-i18n="hero_stat_anytime">Order anytime</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 reveal reveal-delay-1 hero-visual-col">
+            <!-- Desktop: single hero phone -->
+            <div class="hero-visual hero-visual-desktop d-none d-lg-flex">
+              <div class="phone-mockup phone-main">
+                <div class="phone-screen">
+                  <div class="mock-header">
+                    <img src="assets/images/logo-symbol.png" alt="" width="28" height="28">
+                    <span>KilatMart</span>
+                  </div>
+                  <div class="mock-search" data-i18n="mock_search">Search groceries, pharmacy…</div>
+                  <div class="mock-banner">
+                    <span class="mock-banner-tag" data-i18n="mock_flash_deal">Flash Deal</span>
+                    <strong data-i18n="mock_fresh">Fresh produce</strong>
+                    <small data-i18n="mock_ends">Ends in 14:32</small>
+                  </div>
+                  <div class="mock-grid">
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="floating-chip chip-1">
+                <i class="bi bi-lightning-charge-fill"></i>
+                <span data-i18n="mock_chip_order">Order placed</span>
+              </div>
+              <div class="floating-chip chip-2">
+                <i class="bi bi-truck"></i>
+                <span data-i18n="mock_chip_way">On the way · 12 min</span>
+              </div>
+              <div class="floating-chip chip-3">
+                <i class="bi bi-check-circle-fill"></i>
+                <span data-i18n="mock_chip_done">Delivered!</span>
+              </div>
+            </div>
+
+            <!-- Mobile: swipeable app carousel -->
+            <div class="phone-carousel d-lg-none" id="phoneCarousel" aria-roledescription="carousel">
+              <p class="phone-carousel-hint"><i class="bi bi-arrow-left-right"></i> <span data-i18n="carousel_swipe">Swipe to explore apps</span></p>
+              <div class="phone-carousel-viewport" id="phoneCarouselViewport">
+                <div class="phone-carousel-track" id="phoneCarouselTrack">
+                  <!-- Slide 1: Hero / order flow -->
+                  <div class="phone-carousel-slide" data-slide="0">
+                    <div class="phone-carousel-slide-label" data-i18n="carousel_slide_home">Shop &amp; Order</div>
+                    <div class="phone-carousel-frame">
+                      <div class="phone-glow phone-glow-orange" aria-hidden="true"></div>
+                      <div class="phone-mockup phone-mockup-premium phone-carousel-phone">
+                        <div class="phone-notch" aria-hidden="true"></div>
+                        <div class="phone-screen">
+                          <div class="mock-header">
+                            <img src="assets/images/logo-symbol.png" alt="" width="28" height="28">
+                            <span>KilatMart</span>
+                          </div>
+                          <div class="mock-search" data-i18n="mock_search">Search groceries, pharmacy…</div>
+                          <div class="mock-banner">
+                            <span class="mock-banner-tag" data-i18n="mock_flash_deal">Flash Deal</span>
+                            <strong data-i18n="mock_fresh">Fresh produce</strong>
+                            <small data-i18n="mock_ends">Ends in 14:32</small>
+                          </div>
+                          <div class="mock-grid">
+                            <div class="mock-card"></div>
+                            <div class="mock-card"></div>
+                            <div class="mock-card"></div>
+                            <div class="mock-card"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-chip carousel-chip-1">
+                        <i class="bi bi-lightning-charge-fill"></i>
+                        <span data-i18n="mock_chip_order">Order placed</span>
+                      </div>
+                      <div class="carousel-chip carousel-chip-2">
+                        <i class="bi bi-truck"></i>
+                        <span data-i18n="mock_chip_way">On the way · 12 min</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Slide 2: Customer app -->
+                  <div class="phone-carousel-slide" data-slide="1">
+                    <div class="phone-carousel-slide-label" data-i18n="carousel_slide_customer">Customer App</div>
+                    <div class="phone-carousel-frame">
+                      <div class="phone-glow phone-glow-orange" aria-hidden="true"></div>
+                      <div class="phone-mockup phone-mockup-premium phone-carousel-phone">
+                        <div class="phone-notch" aria-hidden="true"></div>
+                        <div class="phone-screen screen-customer">
+                          <div class="screen-deal-bar screen-deal-bar-glow">
+                            <span data-i18n="mock_free_delivery">Free delivery on orders above RM40</span>
+                          </div>
+                          <div class="screen-categories carousel-cats">
+                            <span class="cat-active" data-i18n="cat_grocery">Grocery</span>
+                            <span data-i18n="cat_pharmacy">Pharmacy</span>
+                            <span data-i18n="cat_snacks">Snacks</span>
+                            <span data-i18n="cat_home">Home</span>
+                          </div>
+                          <div class="screen-products">
+                            <div class="product-row product-row-animated" style="--row-delay: 0s">
+                              <div class="product-thumb"><span class="thumb-shine"></span></div>
+                              <div class="product-lines"><span class="line-title"></span><span class="line-sub"></span></div>
+                            </div>
+                            <div class="product-row product-row-animated" style="--row-delay: 0.15s">
+                              <div class="product-thumb"><span class="thumb-shine"></span></div>
+                              <div class="product-lines"><span class="line-title line-title-short"></span><span class="line-sub line-sub-short"></span></div>
+                            </div>
+                            <div class="product-row product-row-animated" style="--row-delay: 0.3s">
+                              <div class="product-thumb"><span class="thumb-shine"></span></div>
+                              <div class="product-lines"><span class="line-title"></span><span class="line-sub"></span></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Slide 3: Rider app -->
+                  <div class="phone-carousel-slide" data-slide="2">
+                    <div class="phone-carousel-slide-label section-label-cyan" data-i18n="carousel_slide_rider">Rider App</div>
+                    <div class="phone-carousel-frame">
+                      <div class="phone-glow phone-glow-cyan" aria-hidden="true"></div>
+                      <div class="phone-mockup phone-mockup-premium phone-mockup-rider phone-carousel-phone">
+                        <div class="phone-notch" aria-hidden="true"></div>
+                        <div class="phone-screen screen-rider">
+                          <div class="rider-earnings rider-earnings-glow">
+                            <small data-i18n="mock_earnings_label">TODAY'S EARNINGS</small>
+                            <strong class="earnings-pulse" data-earnings="142.50">RM <span class="earnings-value">0.00</span></strong>
+                            <span class="rider-streak"><i class="bi bi-fire"></i> <span data-i18n="mock_streak">5-day streak</span></span>
+                          </div>
+                          <div class="rider-order-card rider-order-slide">
+                            <span class="rider-order-badge" data-i18n="mock_new_order">NEW ORDER</span>
+                            <p data-i18n="mock_pickup">Pick up from FreshMart · 2.1 km</p>
+                            <div class="rider-order-meta">
+                              <span><i class="bi bi-clock"></i> <span data-i18n="mock_time">8 min</span></span>
+                              <span><i class="bi bi-wallet2"></i> RM 8.50</span>
+                            </div>
+                          </div>
+                          <div class="rider-map-preview">
+                            <div class="map-route"></div>
+                            <div class="map-pin map-pin-store"><i class="bi bi-shop"></i></div>
+                            <div class="map-pin map-pin-rider"><i class="bi bi-bicycle"></i></div>
+                            <div class="map-pulse"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="phone-carousel-dots" id="phoneCarouselDots" role="tablist" aria-label="App previews">
+                <button type="button" class="carousel-dot active" data-index="0" aria-label="Slide 1" aria-selected="true"></button>
+                <button type="button" class="carousel-dot" data-index="1" aria-label="Slide 2" aria-selected="false"></button>
+                <button type="button" class="carousel-dot" data-index="2" aria-label="Slide 3" aria-selected="false"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coming Soon -->
+    <section class="coming-soon-section" id="coming-soon">
+      <div class="container">
+        <div class="coming-soon-card reveal">
+          <div class="coming-soon-glow" aria-hidden="true"></div>
+          <div class="row align-items-center g-4 g-lg-5">
+            <div class="col-lg-7">
+              <div class="coming-soon-eyebrow">
+                <span class="pulse-dot"></span>
+                <span data-i18n="cs_eyebrow">Early access opening soon</span>
+              </div>
+              <h2 class="coming-soon-title" data-i18n-html="cs_title_html">
+                Something <span class="shimmer-text">kilat</span> is on the way.
+              </h2>
+              <p class="coming-soon-lead" data-i18n-html="cs_lead_html">
+                Malaysia's first true quick-commerce experience — groceries, pharmacy &amp; essentials at your door in <strong>under 30 minutes</strong>. We're putting the finishing touches on the apps before we flip the switch in KL.
+              </p>
+              <div class="launch-zones">
+                <span class="zone-label" data-i18n="cs_zones_label">First launch zones</span>
+                <div class="zone-pills">
+                  <span class="zone-pill">Mont Kiara</span>
+                  <span class="zone-pill">Bangsar</span>
+                  <span class="zone-pill">Damansara</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="coming-soon-panel">
+                <div class="coming-soon-status">
+                  <i class="bi bi-lightning-charge-fill"></i>
+                  <div>
+                    <span class="status-label" data-i18n="cs_status_label">Status</span>
+                    <span class="status-value" data-i18n="cs_status_value">Apps in final testing</span>
+                  </div>
+                </div>
+                <ul class="coming-soon-perks">
+                  <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="cs_perk1">Customer app — order in seconds</span></li>
+                  <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="cs_perk2">Rider app — earn on your schedule</span></li>
+                  <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="cs_perk3">Partner stores — going live zone by zone</span></li>
+                </ul>
+                <a href="mailto:support@kilatmart.com?subject=Notify%20me%20when%20KilatMart%20launches" class="btn btn-brand btn-lg w-100 coming-soon-cta">
+                  <i class="bi bi-bell me-2"></i><span data-i18n="cs_cta">Notify me at launch</span>
+                </a>
+                <p class="coming-soon-note" data-i18n="cs_note">Be first in line when we go live on App Store &amp; Google Play.</p>
+              </div>
+            </div>
+          </div>
+          <div class="coming-soon-ticker" aria-hidden="true">
+            <div class="ticker-track">
+              <span>Delivered in Minutes</span>
+              <span>·</span>
+              <span>Groceries</span>
+              <span>·</span>
+              <span>Pharmacy</span>
+              <span>·</span>
+              <span>30-Min Delivery</span>
+              <span>·</span>
+              <span>Malaysia Q-Commerce</span>
+              <span>·</span>
+              <span>Delivered in Minutes</span>
+              <span>·</span>
+              <span>Groceries</span>
+              <span>·</span>
+              <span>Pharmacy</span>
+              <span>·</span>
+              <span>30-Min Delivery</span>
+              <span>·</span>
+              <span>Malaysia Q-Commerce</span>
+              <span>·</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section-pad" id="about">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8 reveal">
+            <span class="section-label" data-i18n="about_label">What is KilatMart?</span>
+            <h2 class="section-title" data-i18n="about_title">Malaysia's quick-commerce platform</h2>
+            <p class="section-lead mx-auto" data-i18n="about_lead">
+              We are building the fastest way for Malaysians to get everyday essentials — without owning warehouses or inventory. Partner stores fulfil your order; our gig riders deliver it to your door at lightning speed.
+            </p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4 reveal">
+            <div class="glass-card h-100 text-center">
+              <div class="icon-ring icon-ring-orange">
+                <i class="bi bi-shop"></i>
+              </div>
+              <h3 data-i18n="about_card1_title">Partner stores</h3>
+              <p data-i18n="about_card1_text">Local grocers, pharmacies, and specialty shops pack your order fresh from their shelves.</p>
+            </div>
+          </div>
+          <div class="col-md-4 reveal reveal-delay-1">
+            <div class="glass-card h-100 text-center">
+              <div class="icon-ring icon-ring-amber">
+                <i class="bi bi-bicycle"></i>
+              </div>
+              <h3 data-i18n="about_card2_title">Gig riders</h3>
+              <p data-i18n="about_card2_text">Independent riders pick up and deliver with live tracking, OTP verification, and photo proof.</p>
+            </div>
+          </div>
+          <div class="col-md-4 reveal reveal-delay-2">
+            <div class="glass-card h-100 text-center">
+              <div class="icon-ring icon-ring-green">
+                <i class="bi bi-house-heart"></i>
+              </div>
+              <h3 data-i18n="about_card3_title">Your doorstep</h3>
+              <p data-i18n="about_card3_text">Track every step from store to door. Pay securely and rate your experience in-app.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why -->
+    <section class="section-pad section-alt" id="why">
+      <div class="container">
+        <div class="row align-items-end mb-5">
+          <div class="col-lg-6 reveal">
+            <span class="section-label" data-i18n="why_label">Why KilatMart?</span>
+            <h2 class="section-title" data-i18n="why_title">Built for speed, trust &amp; everyday life</h2>
+          </div>
+          <div class="col-lg-6 reveal reveal-delay-1">
+            <p class="section-lead mb-0" data-i18n="why_lead">
+              Malaysia deserves true quick-commerce — not 45-minute waits. We're launching zone by zone, starting in Kuala Lumpur, with a platform designed for reliability from day one.
+            </p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-4 reveal">
+            <div class="feature-card">
+              <span class="feature-num">01</span>
+              <h3 data-i18n="why_f1_title">Under 30 minutes</h3>
+              <p data-i18n="why_f1_text">Engineered for speed — smart routing, nearby stores, and dedicated riders keep delivery times tight.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 reveal reveal-delay-1">
+            <div class="feature-card">
+              <span class="feature-num">02</span>
+              <h3 data-i18n="why_f2_title">Fresh from local stores</h3>
+              <p data-i18n="why_f2_text">No dark warehouses. Your order comes from real neighbourhood shops you can trust.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 reveal reveal-delay-2">
+            <div class="feature-card">
+              <span class="feature-num">03</span>
+              <h3 data-i18n="why_f3_title">Groceries to pharmacy</h3>
+              <p data-i18n="why_f3_text">One app for daily essentials, health products, snacks, and household needs.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 reveal">
+            <div class="feature-card">
+              <span class="feature-num">04</span>
+              <h3 data-i18n="why_f4_title">Live order tracking</h3>
+              <p data-i18n="why_f4_text">See when your order is picked, packed, picked up, and arriving — in real time.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 reveal reveal-delay-1">
+            <div class="feature-card">
+              <span class="feature-num">05</span>
+              <h3 data-i18n="why_f5_title">Secure payments</h3>
+              <p data-i18n="why_f5_text">Pay with cards, e-wallets, and more. Transparent pricing with no hidden surprises.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 reveal reveal-delay-2">
+            <div class="feature-card">
+              <span class="feature-num">06</span>
+              <h3 data-i18n="why_f6_title">First-mover advantage</h3>
+              <p data-i18n="why_f6_text">True 10–30 minute delivery is new in Malaysia. Join early and shape the future of Q-commerce.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section-pad" id="how">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <span class="section-label" data-i18n="how_label">How it works</span>
+          <h2 class="section-title" data-i18n="how_title">From tap to doorstep in four steps</h2>
+        </div>
+        <div class="steps-track reveal">
+          <div class="step-item">
+            <div class="step-icon"><i class="bi bi-phone"></i></div>
+            <div class="step-content">
+              <span class="step-num" data-i18n="how_s1_num">Step 1</span>
+              <h3 data-i18n="how_s1_title">Browse &amp; order</h3>
+              <p data-i18n="how_s1_text">Open the KilatMart app, pick your store, add items to cart, and checkout in seconds.</p>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-icon"><i class="bi bi-bag-check"></i></div>
+            <div class="step-content">
+              <span class="step-num" data-i18n="how_s2_num">Step 2</span>
+              <h3 data-i18n="how_s2_title">Store packs</h3>
+              <p data-i18n="how_s2_text">Partner store staff pick and pack your order fresh. You get live updates as it's prepared.</p>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-icon"><i class="bi bi-bicycle"></i></div>
+            <div class="step-content">
+              <span class="step-num" data-i18n="how_s3_num">Step 3</span>
+              <h3 data-i18n="how_s3_title">Rider picks up</h3>
+              <p data-i18n="how_s3_text">A verified KilatMart rider collects your order and heads your way with GPS tracking.</p>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-icon"><i class="bi bi-door-open"></i></div>
+            <div class="step-content">
+              <span class="step-num" data-i18n="how_s4_num">Step 4</span>
+              <h3 data-i18n="how_s4_title">Delivered</h3>
+              <p data-i18n="how_s4_text">OTP-verified handover with photo proof. Enjoy your essentials — rate us if you love the speed!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer App -->
+    <section class="section-pad section-alt" id="customer-app">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 order-2 order-lg-2 reveal app-copy-col">
+            <span class="section-label" data-i18n="customer_label">Customer App</span>
+            <h2 class="section-title" data-i18n="customer_title">Your everyday essentials, one tap away</h2>
+            <p class="section-lead" data-i18n="customer_lead">
+              The KilatMart customer app is designed for speed and discovery — flash deals, smart search, live tracking, wallet &amp; loyalty, and seamless reordering.
+            </p>
+            <ul class="check-list">
+              <li><i class="bi bi-check2"></i> <span data-i18n="customer_c1">Zepto-style home with flash deals &amp; timers</span></li>
+              <li><i class="bi bi-check2"></i> <span data-i18n="customer_c2">Groceries, pharmacy, snacks &amp; household</span></li>
+              <li><i class="bi bi-check2"></i> <span data-i18n="customer_c3">Real-time delivery tracking on a map</span></li>
+              <li><i class="bi bi-check2"></i> <span data-i18n="customer_c4">Secure checkout &amp; order history</span></li>
+              <li><i class="bi bi-check2"></i> <span data-i18n="customer_c5">Referrals, coupons &amp; membership perks</span></li>
+            </ul>
+            <div class="store-buttons mt-4">
+              <a href="#" class="store-btn" data-store="app-store" data-app="customer" aria-label="Download on the App Store">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                <span>
+                  <small data-i18n="store_dl_ios_small">Download on the</small>
+                  <span data-i18n="store_dl_ios">App Store</span>
+                </span>
+              </a>
+              <a href="#" class="store-btn" data-store="play-store" data-app="customer" aria-label="Get it on Google Play">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.609 1.814L13.792 12 3.61 22.186a1.002 1.002 0 0 1-.536-.258 1 1 0 0 1-.287-.664V2.736a1 1 0 0 1 .822-.922zM14.5 12.707l2.302 2.302-10.937 6.333 8.635-8.635zM16.29 10.921l2.837 1.639a1 1 0 0 1 0 1.732l-2.837 1.639-2.538-2.538 2.538-2.472zM14.5 11.293L5.865 3.574l10.937 6.333L14.5 11.293z"/></svg>
+                <span>
+                  <small data-i18n="store_dl_play_small">Get it on</small>
+                  <span data-i18n="store_dl_play">Google Play</span>
+                </span>
+              </a>
+            </div>
+            <div class="coming-soon-inline mt-4">
+              <span class="coming-soon-inline-badge"><i class="bi bi-stars"></i> <span data-i18n="customer_cs_badge">Coming Soon</span></span>
+              <p data-i18n-html="customer_cs_text_html">Be among the first to order when we launch in KL — <a href="#coming-soon">get notified</a>.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-1 reveal reveal-delay-1 app-visual-col d-none d-lg-block">
+            <div class="app-showcase app-showcase-customer">
+              <div class="phone-glow phone-glow-orange" aria-hidden="true"></div>
+              <div class="phone-mockup phone-secondary phone-mockup-premium" data-mockup="customer">
+                <div class="phone-notch" aria-hidden="true"></div>
+                <div class="phone-screen screen-customer">
+                  <div class="screen-deal-bar screen-deal-bar-glow">
+                    <span data-i18n="mock_free_delivery">Free delivery on orders above RM40</span>
+                  </div>
+                  <div class="screen-categories">
+                    <span class="cat-active" data-i18n="cat_grocery">Grocery</span>
+                    <span data-i18n="cat_pharmacy">Pharmacy</span>
+                    <span data-i18n="cat_snacks">Snacks</span>
+                    <span data-i18n="cat_home">Home</span>
+                  </div>
+                  <div class="screen-products">
+                    <div class="product-row product-row-animated" style="--row-delay: 0s">
+                      <div class="product-thumb"><span class="thumb-shine"></span></div>
+                      <div class="product-lines"><span class="line-title"></span><span class="line-sub"></span></div>
+                    </div>
+                    <div class="product-row product-row-animated" style="--row-delay: 0.15s">
+                      <div class="product-thumb"><span class="thumb-shine"></span></div>
+                      <div class="product-lines"><span class="line-title line-title-short"></span><span class="line-sub line-sub-short"></span></div>
+                    </div>
+                    <div class="product-row product-row-animated" style="--row-delay: 0.3s">
+                      <div class="product-thumb"><span class="thumb-shine"></span></div>
+                      <div class="product-lines"><span class="line-title"></span><span class="line-sub"></span></div>
+                    </div>
+                    <div class="product-row product-row-animated" style="--row-delay: 0.45s">
+                      <div class="product-thumb"><span class="thumb-shine"></span></div>
+                      <div class="product-lines"><span class="line-title line-title-short"></span><span class="line-sub"></span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rider App -->
+    <section class="section-pad" id="rider-app">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 order-2 order-lg-1 reveal app-copy-col">
+            <span class="section-label section-label-cyan" data-i18n="rider_label">Rider App</span>
+            <h2 class="section-title" data-i18n="rider_title">Earn on your schedule. Deliver at Kilat speed.</h2>
+            <p class="section-lead" data-i18n="rider_lead">
+              Join the KilatMart rider fleet and earn per delivery with transparent payouts, zone incentives, missions, and safety tools built for Malaysian roads.
+            </p>
+            <ul class="check-list check-list-cyan">
+              <li><i class="bi bi-check2"></i> <span data-i18n="rider_c1">Flexible hours — go online when you want</span></li>
+              <li><i class="bi bi-check2"></i> <span data-i18n="rider_c2">Earnings dashboard &amp; instant wallet</span></li>
+              <li><i class="bi bi-check2"></i> <span data-i18n="rider_c3">Demand heatmaps &amp; zone bonuses</span></li>
+              <li><i class="bi bi-check2"></i> <span data-i18n="rider_c4">Missions, streaks &amp; leaderboard rewards</span></li>
+              <li><i class="bi bi-check2"></i> <span data-i18n="rider_c5">OTP + photo proof for secure handover</span></li>
+            </ul>
+            <div class="store-buttons mt-4">
+              <a href="#" class="store-btn store-btn-cyan" data-store="app-store" data-app="rider" aria-label="Download KilatMart Rider on the App Store">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                <span>
+                  <small data-i18n="rider_store_ios_small">Rider App · App Store</small>
+                  <span data-i18n="rider_store_soon">Coming Soon</span>
+                </span>
+              </a>
+              <a href="#" class="store-btn store-btn-cyan" data-store="play-store" data-app="rider" aria-label="Get KilatMart Rider on Google Play">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.609 1.814L13.792 12 3.61 22.186a1.002 1.002 0 0 1-.536-.258 1 1 0 0 1-.287-.664V2.736a1 1 0 0 1 .822-.922zM14.5 12.707l2.302 2.302-10.937 6.333 8.635-8.635zM16.29 10.921l2.837 1.639a1 1 0 0 1 0 1.732l-2.837 1.639-2.538-2.538 2.538-2.472zM14.5 11.293L5.865 3.574l10.937 6.333L14.5 11.293z"/></svg>
+                <span>
+                  <small data-i18n="rider_store_play_small">Rider App · Google Play</small>
+                  <span data-i18n="rider_store_soon">Coming Soon</span>
+                </span>
+              </a>
+            </div>
+            <a href="mailto:riders@kilatmart.com" class="btn btn-outline-cyan mt-3">
+              <i class="bi bi-envelope me-2"></i><span data-i18n="rider_apply">Apply to ride — riders@kilatmart.com</span>
+            </a>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 reveal reveal-delay-1 app-visual-col d-none d-lg-block">
+            <div class="app-showcase app-showcase-rider">
+              <div class="phone-glow phone-glow-cyan" aria-hidden="true"></div>
+              <div class="phone-mockup phone-secondary phone-mockup-premium phone-mockup-rider" data-mockup="rider">
+                <div class="phone-notch" aria-hidden="true"></div>
+                <div class="phone-screen screen-rider">
+                  <div class="rider-earnings rider-earnings-glow">
+                    <small data-i18n="mock_earnings_label">TODAY'S EARNINGS</small>
+                    <strong class="earnings-pulse" data-earnings="142.50">RM <span class="earnings-value">0.00</span></strong>
+                    <span class="rider-streak"><i class="bi bi-fire"></i> <span data-i18n="mock_streak">5-day streak</span></span>
+                  </div>
+                  <div class="rider-order-card rider-order-slide">
+                    <span class="rider-order-badge" data-i18n="mock_new_order">NEW ORDER</span>
+                    <p data-i18n="mock_pickup">Pick up from FreshMart · 2.1 km</p>
+                    <div class="rider-order-meta">
+                      <span><i class="bi bi-clock"></i> <span data-i18n="mock_time">8 min</span></span>
+                      <span><i class="bi bi-wallet2"></i> RM 8.50</span>
+                    </div>
+                  </div>
+                  <div class="rider-map-preview">
+                    <div class="map-route"></div>
+                    <div class="map-pin map-pin-store"><i class="bi bi-shop"></i></div>
+                    <div class="map-pin map-pin-rider"><i class="bi bi-bicycle"></i></div>
+                    <div class="map-pulse"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="section-pad section-alt" id="partners">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center reveal">
+            <span class="section-label" data-i18n="partners_label">Store Partners</span>
+            <h2 class="section-title" data-i18n="partners_title">Grow your store with KilatMart</h2>
+            <p class="section-lead mx-auto" data-i18n="partners_lead">
+              List your grocery, pharmacy, or specialty store on our platform. We bring customers, handle delivery logistics, and you focus on what you do best — great products and service.
+            </p>
+            <div class="row g-4 mt-2 text-start">
+              <div class="col-md-4">
+                <div class="mini-card">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h4 data-i18n="partners_m1_title">More orders</h4>
+                  <p data-i18n="partners_m1_text">Reach new customers in your delivery zone without extra marketing spend.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="mini-card">
+                  <i class="bi bi-tablet"></i>
+                  <h4 data-i18n="partners_m2_title">Store portal</h4>
+                  <p data-i18n="partners_m2_text">Manage catalog, orders, and payouts from a dedicated merchant dashboard.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="mini-card">
+                  <i class="bi bi-handshake"></i>
+                  <h4 data-i18n="partners_m3_title">Fair commission</h4>
+                  <p data-i18n="partners_m3_text">Transparent rates by category — grocery, pharmacy, and premium stores.</p>
+                </div>
+              </div>
+            </div>
+            <a href="mailto:partners@kilatmart.com" class="btn btn-brand btn-lg mt-4">
+              <i class="bi bi-envelope me-2"></i><span data-i18n="partners_cta">Partner with us — partners@kilatmart.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section-pad" id="categories">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <span class="section-label" data-i18n="categories_label">What you can order</span>
+          <h2 class="section-title" data-i18n="categories_title">Everything you need, delivered fast</h2>
+        </div>
+        <div class="row g-3">
+          <div class="col-6 col-md-4 col-lg-2 reveal">
+            <div class="category-pill"><i class="bi bi-cart3"></i><span data-i18n="cat_groceries">Groceries</span></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-1">
+            <div class="category-pill"><i class="bi bi-capsule"></i><span data-i18n="cat_pharmacy">Pharmacy</span></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-2">
+            <div class="category-pill"><i class="bi bi-cup-hot"></i><span data-i18n="cat_snacks">Snacks</span></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 reveal">
+            <div class="category-pill"><i class="bi bi-droplet"></i><span data-i18n="cat_beverages">Beverages</span></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-1">
+            <div class="category-pill"><i class="bi bi-house"></i><span data-i18n="cat_household">Household</span></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 reveal reveal-delay-2">
+            <div class="category-pill"><i class="bi bi-heart-pulse"></i><span data-i18n="cat_health">Health</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust -->
+    <section class="section-pad section-alt" id="trust">
+      <div class="container">
+        <div class="trust-banner reveal">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-4 text-center text-lg-start">
+              <img src="assets/images/logo-stacked.png" alt="KilatMart" height="80" class="trust-logo">
+            </div>
+            <div class="col-lg-8">
+              <h2 class="section-title mb-3" data-i18n="trust_title">Safe, verified, built for Malaysia</h2>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="trust-item"><i class="bi bi-shield-check"></i><span data-i18n="trust_t1">Verified riders &amp; stores</span></div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="trust-item"><i class="bi bi-camera"></i><span data-i18n="trust_t2">Photo proof on delivery</span></div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="trust-item"><i class="bi bi-key"></i><span data-i18n="trust_t3">OTP-verified handover</span></div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="trust-item"><i class="bi bi-headset"></i><span data-i18n="trust_t4">24/7 customer support</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section-pad" id="contact">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5 reveal">
+            <span class="section-label" data-i18n="contact_label">Contact</span>
+            <h2 class="section-title" data-i18n="contact_title">Get in touch</h2>
+            <p class="section-lead" data-i18n="contact_lead">
+              Questions about orders, partnerships, or riding with us? We'd love to hear from you.
+            </p>
+            <div class="contact-cards">
+              <a href="mailto:support@kilatmart.com" class="contact-card">
+                <i class="bi bi-headset"></i>
+                <div>
+                  <strong data-i18n="contact_support">Customer support</strong>
+                  <span>support@kilatmart.com</span>
+                </div>
+              </a>
+              <a href="mailto:partners@kilatmart.com" class="contact-card">
+                <i class="bi bi-shop"></i>
+                <div>
+                  <strong data-i18n="contact_partners">Store partnerships</strong>
+                  <span>partners@kilatmart.com</span>
+                </div>
+              </a>
+              <a href="mailto:riders@kilatmart.com" class="contact-card">
+                <i class="bi bi-bicycle"></i>
+                <div>
+                  <strong data-i18n="contact_riders">Rider applications</strong>
+                  <span>riders@kilatmart.com</span>
+                </div>
+              </a>
+            </div>
+            <p class="contact-location mt-4">
+              <i class="bi bi-geo-alt me-2"></i>
+              <span data-i18n="contact_location">Kuala Lumpur, Malaysia · Serving KL &amp; surrounding areas</span>
+            </p>
+          </div>
+          <div class="col-lg-7 reveal reveal-delay-1">
+            <div class="glass-card contact-form-card">
+              <h3 data-i18n="form_title">Send us a message</h3>
+              <p class="form-hint mb-4" data-i18n="form_hint">We'll get back to you within 1–2 business days.</p>
+              <form id="contactForm" action="mailto:support@kilatmart.com" method="post" enctype="text/plain">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label" data-i18n="form_name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required data-i18n-placeholder="form_name_ph" placeholder="Your name">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label" data-i18n="form_email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required data-i18n-placeholder="form_email_ph" placeholder="you@email.com">
+                  </div>
+                  <div class="col-12">
+                    <label for="subject" class="form-label" data-i18n="form_topic">Topic</label>
+                    <select class="form-select" id="subject" name="subject">
+                      <option value="General inquiry">General inquiry</option>
+                      <option value="Customer support">Customer support</option>
+                      <option value="Store partnership">Store partnership</option>
+                      <option value="Rider application">Rider application</option>
+                      <option value="Press & media">Press &amp; media</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="message" class="form-label" data-i18n="form_message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required data-i18n-placeholder="form_message_ph" placeholder="How can we help?"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-brand btn-lg w-100">
+                      <i class="bi bi-send me-2"></i><span data-i18n="form_submit">Send Message</span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-4">
+          <img src="assets/images/logo-horizontal.png" alt="KilatMart" height="32" class="mb-3">
+          <p class="footer-tagline" data-i18n="footer_tagline">Delivered in Minutes.</p>
+          <p class="footer-desc" data-i18n="footer_desc">Malaysia's quick-commerce platform for groceries, pharmacy, and everyday essentials.</p>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h4 data-i18n="footer_platform">Platform</h4>
+          <ul>
+            <li><a href="#about" data-i18n="footer_about">About</a></li>
+            <li><a href="#how" data-i18n="footer_how">How it works</a></li>
+            <li><a href="#customer-app" data-i18n="footer_customer">Customer app</a></li>
+            <li><a href="#rider-app" data-i18n="footer_rider">Rider app</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h4 data-i18n="footer_business">Business</h4>
+          <ul>
+            <li><a href="#partners" data-i18n="footer_store_partners">Store partners</a></li>
+            <li><a href="mailto:partners@kilatmart.com" data-i18n="footer_partner_inquiry">Partner inquiry</a></li>
+            <li><a href="mailto:riders@kilatmart.com" data-i18n="footer_become_rider">Become a rider</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h4 data-i18n="footer_download">Download</h4>
+          <div class="store-buttons store-buttons-sm">
+            <a href="#" class="store-btn" data-store="app-store" data-app="customer" aria-label="App Store">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              <span><small>App Store</small><span data-i18n="customer_cs_badge">Coming Soon</span></span>
+            </a>
+            <a href="#" class="store-btn" data-store="play-store" data-app="customer" aria-label="Google Play">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.609 1.814L13.792 12 3.61 22.186a1.002 1.002 0 0 1-.536-.258 1 1 0 0 1-.287-.664V2.736a1 1 0 0 1 .822-.922zM14.5 12.707l2.302 2.302-10.937 6.333 8.635-8.635zM16.29 10.921l2.837 1.639a1 1 0 0 1 0 1.732l-2.837 1.639-2.538-2.538 2.538-2.472zM14.5 11.293L5.865 3.574l10.937 6.333L14.5 11.293z"/></svg>
+              <span><small>Google Play</small><span data-i18n="customer_cs_badge">Coming Soon</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-divider">
+      <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <p class="mb-0">&copy; <span id="year"></span> KilatMart. <span data-i18n="footer_rights">All rights reserved.</span></p>
+        <div class="footer-links">
+          <a href="#contact" data-i18n="footer_contact">Contact</a>
+          <span class="sep">·</span>
+          <a href="#" data-modal="privacy" data-i18n="footer_privacy">Privacy Policy</a>
+          <span class="sep">·</span>
+          <a href="#" data-modal="terms" data-i18n="footer_terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky CTA -->
+  <div class="mobile-sticky-cta" id="mobileStickyCta" aria-hidden="true">
+    <div class="mobile-sticky-cta-inner">
+      <a href="#coming-soon" class="btn btn-brand btn-lg mobile-sticky-btn">
+        <i class="bi bi-bell"></i>
+        <span data-i18n="hero_cta_notify">Get Notified at Launch</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Coming Soon Modal -->
+  <div class="modal fade" id="comingSoonModal" tabindex="-1" aria-labelledby="comingSoonLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content modal-glass">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="comingSoonLabel" data-i18n="modal_cs_title">Coming Soon</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-i18n-aria="modal_close" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="text-center py-2">
+            <img src="assets/images/logo-symbol.png" alt="" width="64" height="64" class="mb-3 rounded-3 modal-logo-pulse">
+            <h6 class="text-gradient mb-3" data-i18n="modal_cs_sub">Almost there — stay tuned!</h6>
+            <p id="comingSoonText" class="modal-body-text mb-0" data-i18n="modal_cs_body">The KilatMart app is launching soon on the App Store and Google Play. Be among the first to experience Malaysia's fastest grocery delivery.</p>
+          </div>
+        </div>
+        <div class="modal-footer border-0 justify-content-center">
+          <a href="mailto:support@kilatmart.com" class="btn btn-brand" data-i18n="modal_cs_btn">Notify me — support@kilatmart.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Legal Modal -->
+  <div class="modal fade" id="legalModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content modal-glass">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="legalModalTitle">Legal</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-i18n-aria="modal_close" aria-label="Close"></button>
+        </div>
+        <div class="modal-body legal-modal-body" id="legalModalBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/phone-carousel.js"></script>
+</body>
+</html>
