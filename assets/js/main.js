@@ -108,7 +108,7 @@
       var subject = document.getElementById('subject').value;
       var message = document.getElementById('message').value.trim();
       var body = 'From: ' + name + ' (' + email + ')\n\n' + message;
-      var mailto = 'mailto:support@kilatmart.com?subject=' +
+      var mailto = 'mailto:sriharivishnu.j@kilatmart.com?subject=' +
         encodeURIComponent('[KilatMart] ' + subject) +
         '&body=' + encodeURIComponent(body);
       window.location.href = mailto;
