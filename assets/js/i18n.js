@@ -201,9 +201,9 @@ window.KM_I18N = {
     modal_play_store: 'Google Play',
 
     legal_privacy_title: 'Privacy Policy',
-    legal_privacy_body_html: '<p>Our full privacy policy will be published before public launch. KilatMart is committed to protecting your personal data in accordance with Malaysia\'s Personal Data Protection Act (PDPA).</p><p class="mb-0">For questions, contact <a href="mailto:privacy@kilatmart.com">privacy@kilatmart.com</a>.</p>',
+    legal_privacy_body_html: window.KM_LEGAL_CONTENT.en.privacy,
     legal_terms_title: 'Terms of Service',
-    legal_terms_body_html: '<p>Terms of service for customers, riders, and store partners will be published before public launch.</p><p class="mb-0">For questions, contact <a href="mailto:legal@kilatmart.com">legal@kilatmart.com</a>.</p>',
+    legal_terms_body_html: window.KM_LEGAL_CONTENT.en.terms,
 
     modal_close: 'Close',
 
@@ -414,9 +414,9 @@ window.KM_I18N = {
     modal_play_store: 'Google Play',
 
     legal_privacy_title: 'Dasar Privasi',
-    legal_privacy_body_html: '<p>Dasar privasi penuh kami akan diterbitkan sebelum pelancaran awam. KilatMart komited melindungi data peribadi anda selaras dengan Akta Perlindungan Data Peribadi (PDPA) Malaysia.</p><p class="mb-0">Untuk pertanyaan, hubungi <a href="mailto:privacy@kilatmart.com">privacy@kilatmart.com</a>.</p>',
+    legal_privacy_body_html: window.KM_LEGAL_CONTENT.ms.privacy,
     legal_terms_title: 'Terma Perkhidmatan',
-    legal_terms_body_html: '<p>Terma perkhidmatan untuk pelanggan, rider dan rakan kongsi kedai akan diterbitkan sebelum pelancaran awam.</p><p class="mb-0">Untuk pertanyaan, hubungi <a href="mailto:legal@kilatmart.com">legal@kilatmart.com</a>.</p>',
+    legal_terms_body_html: window.KM_LEGAL_CONTENT.ms.terms,
 
     modal_close: 'Tutup',
 
