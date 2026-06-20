@@ -237,7 +237,7 @@ window.KM_I18N = {
     hero_cta_how: 'Lihat Cara Berfungsi',
     hero_stat_delivery: 'Minit penghantaran',
     hero_stat_products: 'Produk',
-    hero_stat_anytime: 'Pesan bila-bila masa',
+    hero_stat_partners: 'Rakan Kongsi Dipercayai',
     mock_search: 'Cari barangan runcit, farmasi…',
     mock_flash_deal: 'Tawaran Kilat',
     mock_fresh: 'Hasil segar',
