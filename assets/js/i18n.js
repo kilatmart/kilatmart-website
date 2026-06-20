@@ -19,7 +19,7 @@ window.KM_I18N = {
 
     hero_badge: 'Launching Soon · Kuala Lumpur',
     hero_title_html: 'Groceries &amp; essentials,<br><span class="text-gradient">delivered in minutes.</span>',
-    hero_lead_html: 'KilatMart connects you to trusted neighbourhood stores — groceries, pharmacy, and daily needs at your doorstep in under <strong>30 minutes</strong>. <em>Kilat</em> means lightning-fast in Malay.',
+    hero_lead_html: 'KilatMart connects you to trusted neighbourhood stores — groceries, pharmacy, and daily needs at your doorstep in under <strong>30 minutes</strong>.',
     hero_cta_notify: 'Get Notified at Launch',
     hero_cta_how: 'See How It Works',
     hero_stat_delivery: 'Min delivery',
@@ -232,7 +232,7 @@ window.KM_I18N = {
 
     hero_badge: 'Akan Dilancarkan · Kuala Lumpur',
     hero_title_html: 'Barangan runcit &amp; keperluan,<br><span class="text-gradient">dihantar dalam minit.</span>',
-    hero_lead_html: 'KilatMart menghubungkan anda dengan kedai kejiranan yang dipercayai — barangan runcit, farmasi dan keperluan harian ke pintu anda dalam masa kurang <strong>30 minit</strong>. <em>Kilat</em> bermaksud sepantas kilat dalam Bahasa Melayu.',
+    hero_lead_html: 'KilatMart menghubungkan anda dengan kedai kejiranan yang dipercayai — barangan runcit, farmasi dan keperluan harian ke pintu anda dalam masa kurang <strong>30 minit</strong>.',
     hero_cta_notify: 'Dapatkan Notifikasi Pelancaran',
     hero_cta_how: 'Lihat Cara Berfungsi',
     hero_stat_delivery: 'Minit penghantaran',
