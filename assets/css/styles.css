@@ -688,6 +688,63 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+.feature-card-highlight {
+  background: linear-gradient(145deg, rgba(255, 138, 0, 0.08), rgba(255, 193, 7, 0.04));
+  border-color: rgba(255, 138, 0, 0.25);
+}
+
+.nav-link-highlight {
+  color: var(--km-amber) !important;
+  font-weight: 600;
+}
+
+.substitute-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.substitute-badge {
+  color: var(--km-amber);
+}
+
+.substitute-card {
+  border-color: rgba(255, 138, 0, 0.12);
+}
+
+.substitute-callout {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.5rem 1.75rem;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, rgba(255, 138, 0, 0.12), rgba(30, 77, 52, 0.35));
+  border: 1px solid rgba(255, 138, 0, 0.28);
+}
+
+.substitute-callout-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 138, 0, 0.2);
+  color: var(--km-orange);
+  font-size: 1.35rem;
+}
+
+.substitute-callout strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 1.05rem;
+}
+
+.substitute-callout p {
+  color: var(--km-text-muted);
+  font-size: 0.92rem;
+}
+
 /* Steps */
 .steps-track {
   display: grid;
